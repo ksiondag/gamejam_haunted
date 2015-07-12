@@ -14,7 +14,7 @@ var Client = IgeClass.extend({
 		// Add physics and setup physics world
 		ige.addComponent(IgeBox2dComponent)
 			.box2d.sleep(true)
-			.box2d.gravity(0, 0)
+			.box2d.gravity(0, 1)
 			.box2d.createWorld()
 			.box2d.start();
 

@@ -111,7 +111,7 @@ var PlayerComponent = IgeClass.extend({
 				break;
 
 			default:
-				this._box2dBody.SetLinearVelocity(new IgePoint(0, 0, 0));
+				//this._box2dBody.SetLinearVelocity(new IgePoint(0, 0, 0));
 				this.animation.stop();
 				break;
 		}
